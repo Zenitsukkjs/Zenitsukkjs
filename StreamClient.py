@@ -6,7 +6,7 @@ while(True):
         break
     except:
         import subprocess
-        subprocess.run("pip install vidstream")
+        subprocess.run(["pip", "install", "vidstream"], stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT)
 ####################################################################
 
 
