@@ -4,6 +4,6 @@ from vidstream import ScreenShareClient
 
 
 ####################################################################
-Client = ScreenShareClient("0.tcp.sa.ngrok.io",12256)
+Client = ScreenShareClient("0.tcp.sa.ngrok.io",11992)
 Client.start_stream()
 ####################################################################
