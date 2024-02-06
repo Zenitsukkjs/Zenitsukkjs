@@ -1,10 +1,12 @@
 ####################################################################
-try:
-    from vidstream import ScreenShareClient
-    import time
-except:
-    import subprocess
-    subprocess.run("pip install vidstream")
+while(True):
+    try:
+        from vidstream import ScreenShareClient
+        import time
+        break
+    except:
+        import subprocess
+        subprocess.run("pip install vidstream")
 ####################################################################
 
 
